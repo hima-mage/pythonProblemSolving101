@@ -34,6 +34,6 @@ class Solution:
 
 s = "anagramc"
 t = "nagaram"
-solutionClass = Solution();
+solutionClass = Solution()
 
 print(solutionClass.isAnagram(s, t))

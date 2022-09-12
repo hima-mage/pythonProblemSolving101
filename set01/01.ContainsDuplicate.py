@@ -25,6 +25,6 @@ class Solution(object):
 
 
 inputIntArray = [1, 2, 3, 33]
-solutionClass = Solution();
+solutionClass = Solution()
 
 print(solutionClass.containsDuplicate(inputIntArray))
