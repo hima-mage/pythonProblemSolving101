@@ -1,0 +1,95 @@
+# Dictionary
+
+    Dictionary in Python is a collection of keys values, used to store data values like a map,
+     which, unlike other data types which hold only a single value as an element.
+
+    Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+
+
+# Creating a Dictionary
+    In Python, a dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’.
+     Dictionary holds pairs of values, one being the Key and the other corresponding pair element being its Key:value.
+     Values in a dictionary can be of any data type and can be duplicated, whereas keys can’t be repeated and must be immutable.
+
+    Note – Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly.
+
+    Dictionary can also be created by the built-in function dict(). An empty dictionary can be created by just placing to curly braces{}.
+
+# Complexities for Creating a Dictionary:
+    Time complexity: O(len(dict))
+
+    Space complexity: O(n)
+
+
+
+# Adding elements to a Dictionary
+    Note- While adding a value, if the key-value already exists, the value gets updated otherwise a new Key with the value is added to the Dictionary.
+    Dict[0] = 'Geeks'
+    Dict[2] = 'For'
+    Dict[3] = 1
+
+    Updating an existing value in a Dictionary can be done by using the built-in update() method.
+     Nested key values can also be added to an existing Dictionary.
+
+# Complexities for Adding elements in a Dictionary:
+    Time complexity: O(1)/O(n)
+
+    Space complexity: O(1)
+
+
+# Accessing elements of a Dictionary
+    In order to access the items of a dictionary refer to its key name. Key can be used inside square brackets.
+    Dict[1]
+
+    There is also a method called get() that will also help in accessing the element from a dictionary.This method accepts key as argument and returns the value.
+
+    Complexities for Accessing elements in a Dictionary:
+    Time complexity: O(1)
+
+    Space complexity: O(1)
+
+# Dictionary methods
+    clear() – Remove all the elements from the dictionary
+    copy() – Returns a copy of the dictionary
+    get() – Returns the value of specified key
+    items() – Returns a list containing a tuple for each key value pair
+    keys() – Returns a list containing dictionary’s keys
+    pop() – Remove the element with specified key
+    popitem() – Removes the last inserted key-value pair
+    update() – Updates dictionary with specified key-value pairs
+    values() – Returns a list of all the values of dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
